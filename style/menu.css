@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 1301px){
+    main{
+        margin-left: 250px;
+    }
+    .nomeRoadmap{
+        margin-left: 250px;
+    }
+}
+
+.barralateral{
+    height: 100%;
+    padding: 10px;
+    width: 200px;
+    background-color: var(--cor0);
+    color: white;
+    position: fixed;
+    display: block;
+    flex-direction: column;  
+}
+
+
+.barralateral a{
+    text-align: left;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--cor001);
+
+}
+
+.barralateral p {
+    border-radius: 7px;
+
+}
+
+.barralateral p:hover{
+    transition: 0.5s;
+    background-color: rgba(194, 194, 194, 0.651);
+    color: white;
+}
+
+nav img {
+    width: 20px;
+}
+
