@@ -1,6 +1,9 @@
 /*Mobile*/
 
 @media screen and (max-width: 1350px){
+    #nameRoadmap{
+        max-width: 100px;
+    }
     .nomeRoadmap p{
         margin-top: 100px;
     }
